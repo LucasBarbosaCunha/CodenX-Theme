@@ -1,0 +1,21 @@
+{
+  "name": "codenx-dark-theme",
+  "displayName": "codenx-dark-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CodenX Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CodenX Dark-color-theme.json"
+      }
+    ]
+  }
+}
