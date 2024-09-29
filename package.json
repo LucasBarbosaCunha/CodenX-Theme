@@ -1,20 +1,30 @@
 {
   "name": "codenx-dark-theme",
   "displayName": "codenx-dark-theme",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Um tema moderno e elegante para o VS Code, projetado para desenvolvedores que buscam clareza e foco. Este tema oferece um destaque de sintaxe com alto contraste, aprimorando a legibilidade e garantindo uma experiência visual confortável, mesmo durante longas horas de trabalho.",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.93.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasBarbosaCunha/codenx-dark-theme"
+  },
+  "keywords": [
+    "dark",
+    "yellow",
+    "gray"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "CodenX Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/CodenX Dark-color-theme.json"
+        "path": "./themes/codenx-dark-color-theme.json"
       }
     ]
   }
