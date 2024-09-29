@@ -9,7 +9,8 @@
   "categories": [
     "Themes"
   ],
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
+  "publisher": "LucasBarbosaCunha",
   "repository": {
     "type": "git",
     "url": "https://github.com/LucasBarbosaCunha/codenx-dark-theme"
@@ -27,5 +28,9 @@
         "path": "./themes/codenx-dark-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
   }
 }
